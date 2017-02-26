@@ -39,10 +39,12 @@ heade ul li:hover{
 }
 article ,aside{
     display:block;
-    margin:30px;
+    margin-top:30px;
+    margin-left:30px;
     padding:20px;
     background:white;
     box-shadow:1px 1px 1px 1px #838383;
+    margin-right:400px;
 }
 article h2{
     padding:5px 0;
@@ -104,6 +106,12 @@ article table tr td{
 }
 article table .buttomTable{
     background:#ccc;
+}
+aside{
+    position:absolute;
+    width:300px;
+    top:60px;
+    right:-360px;
 }
 aside h4{
     height:40px;
